@@ -27,7 +27,7 @@ Make sure you have installed these tools and they are available in your system's
 1. Clone the SubHunt repository and navigate to the SubHunt directory:
 
    ```bash
-   git clone https://github.com/HA-M4HMUD/SubHunt.git
+   git clone https://github.com/M4HMUD404/SubHunt.git
    cd SubHunt
 2. Make the SubHunt.sh script executable:
    ```bash
