@@ -34,7 +34,7 @@ Make sure you have installed these tools and they are available in your system's
    chmod +x SubHunt.sh
 4. Run the script with the following command-line options:
    ```bash
-./SubHunt.sh -d <domain> [-o <output_file>]
+   ./SubHunt.sh -d <domain> [-o <output_file>]
 
 
 - `-d` or `--domain`: Specifies the domain to enumerate subdomains.
