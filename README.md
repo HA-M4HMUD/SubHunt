@@ -24,8 +24,15 @@ SubHunt allows you to quickly enumerate subdomains using popular tools such as A
 Make sure you have installed these tools and they are available in your system's PATH.
 
 ## Usage
+1. Clone the SubHunt repository and navigate to the SubHunt directory:
 
-./subenum.sh -d <domain> [-o <output_file>]
+   ```bash
+   git clone https://github.com/HA-M4HMUD/SubHunt.git
+   cd SubHunt
+2. Make the SubHunt.sh script executable:
+   chmod +x SubHunt.sh
+3. Run the script with the following command-line options:
+./SubHunt.sh -d <domain> [-o <output_file>]
 
 
 - `-d` or `--domain`: Specifies the domain to enumerate subdomains.
@@ -35,11 +42,11 @@ Make sure you have installed these tools and they are available in your system's
 
 Enumerate subdomains for example.com and save the results to `subdomains.txt`:
 
-./subenum.sh -d example.com
+./SubHunt.sh -d example.com
 
 Enumerate subdomains for example.com and save the results to `output.txt`:
 
-./subenum.sh -d example.com -o output.txt
+./SubHunt.sh -d example.com -o output.txt
 
 ## Disclaimer
 This tool should be used responsibly and in compliance with the target's terms of service. The developers assume no liability and are not responsible for any misuse or damage caused by this tool.
