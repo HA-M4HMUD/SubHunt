@@ -1,6 +1,6 @@
 # SubHunt
 
-SubHunt is a subdomain enumeration tool that utilizes different tools and techniques to discover subdomains for a given domain.
+SubHunt is a subdomain enumeration script that utilizes different tools and techniques to discover subdomains for a given domain.
 
 ## Description
 
