@@ -41,11 +41,11 @@ Make sure you have installed these tools and they are available in your system's
 
 ## Examples
 
-Enumerate subdomains for example.com and save the results to `subdomains.txt`:
+- Enumerate subdomains for example.com and save the results to `subdomains.txt`:
    ```bash
    ./SubHunt.sh -d example.com
 
-Enumerate subdomains for example.com and save the results to `output.txt`:
+- Enumerate subdomains for example.com and save the results to `output.txt`:
    ```bash
    ./SubHunt.sh -d example.com -o output.txt
 
