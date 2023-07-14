@@ -30,8 +30,10 @@ Make sure you have installed these tools and they are available in your system's
    git clone https://github.com/HA-M4HMUD/SubHunt.git
    cd SubHunt
 2. Make the SubHunt.sh script executable:
+   ```bash
    chmod +x SubHunt.sh
-3. Run the script with the following command-line options:
+4. Run the script with the following command-line options:
+   ```bash
 ./SubHunt.sh -d <domain> [-o <output_file>]
 
 
