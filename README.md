@@ -8,10 +8,10 @@ SubHunt allows you to quickly enumerate subdomains using popular tools such as A
 
 ## Features
 
-- Enumerates subdomains using Amass, Sublist3r, Assetfinder, Subfinder, and crt.sh
-- Executes subdomain enumeration tools concurrently for faster results
-- Removes duplicate subdomains and sorts them alphabetically
-- Saves the results in an output file
+- Concurrent execution of multiple subdomain enumeration tools for faster results
+- Integration with popular tools like Amass, Sublist3r, Assetfinder, Subfinder, and crt.sh
+- Removal of duplicate subdomains and sorting them alphabetically
+- Customizable output file for storing the enumerated subdomains
 
 ## Prerequisites
 
