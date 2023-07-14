@@ -36,19 +36,18 @@ Make sure you have installed these tools and they are available in your system's
    ```bash
    ./SubHunt.sh -d <domain> [-o <output_file>]
 
-
 - `-d` or `--domain`: Specifies the domain to enumerate subdomains.
 - `-o` or `--output`: (Optional) Specifies the output file to store the subdomains. Default: `subdomains.txt`.
 
 ## Examples
 
 Enumerate subdomains for example.com and save the results to `subdomains.txt`:
-
-./SubHunt.sh -d example.com
+   ```bash
+   ./SubHunt.sh -d example.com
 
 Enumerate subdomains for example.com and save the results to `output.txt`:
-
-./SubHunt.sh -d example.com -o output.txt
+   ```bash
+   ./SubHunt.sh -d example.com -o output.txt
 
 ## Disclaimer
 This tool should be used responsibly and in compliance with the target's terms of service. The developers assume no liability and are not responsible for any misuse or damage caused by this tool.
